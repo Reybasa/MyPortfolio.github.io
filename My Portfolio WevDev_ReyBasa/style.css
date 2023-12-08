@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+}
+body{
+    background: black;
+    color: #fff;
+ 
+}
+.Logo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-left: 3%;
+    height: 200px;
+    width: 200px;
+    padding-bottom: 0%;
+}
+@media screen and (max-width: 999px) {
+    nav{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0%;
+       
+    }
+    header{
+        background-color:rgb(100, 100, 100);">rgb(100, 100, 100)
+    }
+    nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: 50px 90px;
+        position: relative;
+        font-size: 20px;
+        padding-bottom: 0%;
+    
+    }
+    .profile img{
+        border-radius: 50%;
+        height: 500px;
+        width: 500px;
+        margin-left: 1200px;
+        margin-top: 80px;
+        position: relative;
+    }
+    h1{
+        margin-left: 5%;
+        margin-top: 5%;
+        display: block;
+        position: absolute;
+        font-size: 60px;
+    }
+    h6 {
+        position: absolute;
+        display: flex;
+        font-size: 15px;
+        margin-left: 5%;
+        margin-top: 350px;
+        justify-content: space-between;
+        background-color: grey;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 5px;
+        
+    }
+
+}
+nav{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0%;
+   
+}
+header{
+    background-color:rgb(100, 100, 100);">rgb(100, 100, 100)
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 50px 90px;
+    position: relative;
+    font-size: 20px;
+    padding-bottom: 0%;
+
+}
+.profile img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin-left: 1200px;
+    margin-top: 80px;
+    position: relative;
+}
+h1{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: block;
+    position: absolute;
+    font-size: 60px;
+}
+h6 {
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 350px;
+    justify-content: space-between;
+    background-color: grey;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    
+}
+.fa-envelope{
+    font-size: 25px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+
+}
+
+.material-symbols-outlined{
+    margin-left: 5%;
+}
+.icons{
+    font-size: 30px;
+    background-color: black;
+    margin: 100px;
+    margin-right: 50px;
+    position: relative;
+    margin-top: 1px;
+}
+.second h5{
+   
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.fa-arrow-down{
+    margin-left: 5%;
+    background-color: 
+}
+.gallery{
+    margin-top: 1%;
+   display: inline-block;
+   text-align: center;
+}
+.description h3{
+    margin-top: 1%;
+    text-align: center;
+}
+.description p {
+    margin-top: 1%;
+    text-align: center;
+    padding-top: 10px;
+}
+.third h5{
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+.strava-embed-placeholder{
+    height: 200px;
+    margin-left: 50px;
+}
+.strava img{
+    margin-top: 1%;
+    height: 500px;
+    width: 500px;
+}
+.strava{
+    display: inline-block;
+    text-align: center;
+}
+.description2{
+    text-align: center;
+    display: inline-block;
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 45%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+footer{
+    margin-top: 5%;
+    background-color: grey;
+    text-decoration: none;
+}
+.mainfooter{
+    width: 100%;
+    padding: 70px 30px 20px;
+    text-decoration: none;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i {
+    font-size: 2em;
+    color: white;
+    opacity: 0.9;
+}
+/* Howver effects */
+.socialicons a:hover{
+    background-color: grey;
+    transition: 0.5s;
+}
+.socialicons a:hover i {
+    color: grey;
+    transition: 0.5s;
+
+}
+.footernav{
+    margin: 30px 0;
+
+}
+.footernav ul {
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footernav ul li a:hover{
+    opacity: 1;
+
+}
+.footerbuttom{
+    background-color:grey;
+    padding: 20px;
+    text-align: center;
+}
